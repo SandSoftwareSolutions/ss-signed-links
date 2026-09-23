@@ -1,0 +1,15 @@
+{
+  "name": "@sandsoftwaresolutions/signed-links",
+  "version": "0.1.0",
+  "description": "Create and verify short-lived HMAC-signed URLs in Node.js.",
+  "type": "module",
+  "exports": { ".": { "types": "./src/index.d.ts", "import": "./src/index.js" } },
+  "files": ["src", "README.md", "LICENSE"],
+  "sideEffects": false,
+  "engines": { "node": ">=18" },
+  "scripts": { "test": "node --test", "pack:check": "npm pack --dry-run" },
+  "keywords": ["signed-url", "signed-links", "hmac", "security", "downloads"],
+  "license": "MIT",
+  "repository": { "type": "git", "url": "git+https://github.com/SandSoftwareSolutions/ss-signed-links.git" },
+  "publishConfig": { "access": "public" }
+}
