@@ -10,6 +10,8 @@ Create and verify short-lived, tamper-proof URLs using Node.js HMAC-SHA256.
 npm install @sandsoftwaresolutions/signed-links
 ```
 
+Works with `import` and `require()`, and ships TypeScript types for both.
+
 ## Create and verify a link
 
 ```js
